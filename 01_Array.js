@@ -1,0 +1,10 @@
+const arr = [0, 1, 2, 3, 4, 5, 5];
+// arr.push(8);
+// arr.push(6);
+console.log('A', arr);
+arr1 = arr.slice(1, 3);
+console.log(arr);
+console.log('B', arr1);
+arr2 = arr.splice(1, 3);
+console.log(arr);
+console.log('C', arr2);
